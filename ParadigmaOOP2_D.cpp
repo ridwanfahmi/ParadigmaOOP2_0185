@@ -6,15 +6,22 @@ public:
 	// pure virtual function
 	virtual void pesan() = 0;
 	// virtual function biasa
-	virtual void pesan()
+	/*virtual void pesan()
 	{
 		cout << "Pesan dari seseorang" << endl;
-	}
+	}*/
 };
 
 class joko : public seseorang {
-
+public:
+	// deklarasi
+	void pesan()
+	{
+		// implementasi
+		cout << "Pesan dari joko" << endl;
+	}
 };
+
 
 int main() {
 
