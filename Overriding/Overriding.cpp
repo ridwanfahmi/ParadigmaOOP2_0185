@@ -6,6 +6,10 @@ using namespace std;
 //untuk mencegah adanya overriding
 
 class baseClass {
+public:
+	virtual void perkenalan() {
+		
+	}
 
 };
 
